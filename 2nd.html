@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Web Designer - Professional Web Design Services</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: url('https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1/1920x500') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+        nav a:hover {
+            color: #0073e6;
+            text-shadow: 0 0 8px #0073e6;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .projects, .pricing, .contact {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #0073e6;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: #0073e6;
+            margin: 10px auto 0;
+            box-shadow: 0 0 10px #0073e6;
+        }
+        .about p {
+            line-height: 1.6;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .project {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2), 0 0 10px #7edbe8;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .project h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+        .project p {
+            padding: 0 10px 10px;
+            font-size: 1rem;
+        }
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .pricing th, .pricing td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .pricing th {
+            background: #0073e6;
+            color: white;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact input, .contact textarea, .contact button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact button {
+            background: #0073e6;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        .contact button:hover {
+            background: #005bb5;
+            box-shadow: 0 0 10px #005bb5;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Siva Web Designer</h1>
+        <p>Professional Web Design Services Tailored to Your Needs</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a professional web designer specializing in creating visually appealing, user-friendly websites. Whether you need a personal portfolio or a corporate site, I deliver top-notch solutions at competitive prices.</p>
+        </section>
+        <h2 class="section-title">My Projects</h2>
+        <section id="projects" class="projects">
+            
+            <div class="project">
+                <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Mobile-E-Commerce-10.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A modern e-commerce platform designed for seamless shopping experiences.</p>
+            </div>
+            <div class="project">
+                <img src="https://miro.medium.com/v2/resize:fit:1200/1*HvXQBlPYXPBnTiTldKMwsg.jpeg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A creative portfolio website showcasing artwork and photography.</p>
+            </div>
+            <div class="project">
+                <img src="https://unbounce.com/photos/40-LP-examples-of-2023-horizontal.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>An interactive corporate website built for a global audience.</p>
+            </div>
+        </section>
+        <section id="pricing" class="pricing">
+            <h2 class="section-title">Pricing Plans</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Features</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>Single-page design, Responsive</td>
+                        <td>$299</td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>Multi-page website, SEO Optimization</td>
+                        <td>$599</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>E-commerce site, Advanced Features</td>
+                        <td>$999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Siva Web Designer | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
